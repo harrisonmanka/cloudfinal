@@ -1,9 +1,9 @@
 from flask import Flask, render_template, Response
-from google.cloud import storage
+# from google.cloud import storage
 import cv2
-import os
-import numpy as np
-from tensorflow import keras
+# import os
+# import numpy as np
+# from tensorflow import keras
 
 # authenticate with Google Cloud Storage
 # os.environ['GOOGLE_APPLICATION_CREDENTIALS'] = './cloud-final-384722-5c828988d2cf.json'
